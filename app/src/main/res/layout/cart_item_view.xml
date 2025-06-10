@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="2dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginBottom="12dp"
+    android:padding="8dp"
+    app:rippleColor="@null"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="4dp">
+
+
+        <ImageView
+            android:id="@+id/iv_item_image"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:scaleType="centerCrop"
+            android:backgroundTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+        <TextView
+            android:id="@+id/tv_item_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Título del producto"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"
+            app:layout_constraintStart_toEndOf="@id/iv_item_image"
+            app:layout_constraintTop_toTopOf="@id/iv_item_image"
+            app:layout_constraintEnd_toStartOf="@+id/tv_item_price"
+            android:layout_marginStart="12dp"/>
+
+
+        <TextView
+            android:id="@+id/tv_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="€0.00"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@id/tv_item_title"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+        <LinearLayout
+            android:id="@+id/llQuantity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            app:layout_constraintStart_toEndOf="@id/iv_item_image"
+            app:layout_constraintBottom_toBottomOf="@id/iv_item_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginStart="12dp"
+            android:clickable="false"
+            android:focusable="false"
+            >
+
+            <ImageView
+                android:id="@+id/iv_minus"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/product_detail_substract"/>
+
+            <TextView
+                android:id="@+id/tv_item_quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="23sp"
+                android:layout_marginHorizontal="6dp"/>
+
+            <ImageView
+                android:id="@+id/iv_plus"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:padding="4dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/product_detail_add"/>
+            <ImageButton
+                android:id="@+id/iv_delete"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/bin_trash_icon"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:layout_marginStart="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/iv_item_image"
+                app:layout_constraintBottom_toBottomOf="@+id/iv_item_image"
+                app:tint="@color/red" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_home"
+            android:title="@string/menu_home_text" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/menu_profile"
+            android:title="@string/menu_my_profile_text" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/menu_products"
+            android:title="@string/menu_products_text" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/menu_events"
+            android:title="@string/menu_events_text" />
+        <item
+            android:id="@+id/nav_birthday"
+            android:icon="@drawable/menu_birthday"
+            android:title="@string/menu_birthday_text" />
+        <item
+            android:id="@+id/nav_social_media"
+            android:icon="@drawable/menu_socialmedia"
+            android:title="@string/menu_social_media_text" />
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/menu_support"
+            android:title="@string/menu_support_text" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:icon="@drawable/menu_loout"
+            android:title="@string/menu_log_out_text" />
+    </group>
+
+
+
+
+
+</menu>

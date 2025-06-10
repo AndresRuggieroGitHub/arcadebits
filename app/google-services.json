@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "880216492062",
+    "firebase_url": "https://arcadebitsapp-default-rtdb.firebaseio.com",
+    "project_id": "arcadebitsapp",
+    "storage_bucket": "arcadebitsapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880216492062:android:0cb36db283fc661c3b060f",
+        "android_client_info": {
+          "package_name": "com.example.arcadebits"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880216492062-pro8d1860lqhjhbiv289317r99an934o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.arcadebits",
+            "certificate_hash": "7c3f09d5400a3c9e56dc3d0a0cc23538000f2994"
+          }
+        },
+        {
+          "client_id": "880216492062-hpm7ad9f6969bppesbnldchc63it88vm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDe_OHSIL5S8T1B1L3bzzIMLQxTjMvm6Hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880216492062-hpm7ad9f6969bppesbnldchc63it88vm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

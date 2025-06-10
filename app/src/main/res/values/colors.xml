@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#E90B0B</color>
+
+    <color name="grey">#808080</color>
+    <color name="grey_product_bg">#919191</color>
+
+
+    <color name="cian_bg">#47daee</color>
+    <color name="light_cian_bg">#E6B3F1FB</color>
+    <color name="light_cian_bg_mal">#80b3f1fb</color>
+
+
+
+    <color name="green">#39c7a5</color>
+    <color name="lightgreen">#e0f2ed</color>
+    <color name="grey2">#919191</color>
+    <color name="lightgrey">#e9e9e9</color>
+
+
+    <color name="error_white">#FFFFFF</color>
+    <color name="error_soft_red">#FF6666</color>
+
+
+    <color name="light_gray">#F5F5F5</color>
+
+
+
+    <!-- ... otros colores ... -->
+
+    <color name="gray_dark">#4A4A4A</color>
+    <color name="gray_medium">#7A7A7A</color>
+    <color name="blue_accent">#2962FF</color>
+
+
+
+
+</resources>

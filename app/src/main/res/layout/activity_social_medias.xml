@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.view.SocialMediasActivity">
+
+    <ImageView
+        android:id="@+id/iv_to_go_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/to_go_back_icon"
+        android:paddingTop="12dp"
+        android:paddingStart="12dp"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="22dp"
+        android:paddingBottom="14dp"
+        android:text="@string/social_media_title_text"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:srcCompat="@drawable/superior_image" />
+    <View
+        android:id="@+id/image_bottom_line"
+        android:layout_width="0dp"
+        android:layout_height="6dp"
+        android:background="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintStart_toStartOf="@id/imageView"
+        app:layout_constraintEnd_toEndOf="@id/imageView" />
+
+
+    <LinearLayout
+        android:id="@+id/social_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:gravity="center"
+
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView">
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+
+            <ImageView
+                android:id="@+id/iv_facebook_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/social_media_facebook_icon" />
+
+            <TextView
+                android:id="@+id/tv_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="@string/social_media_facebook"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:background="@color/grey2"/>
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+
+            <ImageView
+                android:id="@+id/iv_x_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/social_media_x_icon" />
+
+            <TextView
+                android:id="@+id/tv_x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="@string/social_media_x"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:background="@color/grey2"/>
+
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+
+            <ImageView
+                android:id="@+id/iv_instagram_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/social_media_instagram_icon" />
+
+            <TextView
+                android:id="@+id/tv_instagram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="39dp"
+                android:text="@string/social_media_instagram"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:background="@color/grey2"/>
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+
+            <ImageView
+                android:id="@+id/iv_youtube_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/youtube_black_logo_icon" />
+
+            <TextView
+                android:id="@+id/tv_youtube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="39dp"
+                android:text="@string/social_media_youtube"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="6dp"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:background="@color/grey2"/>
+
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="4dp">
+
+            <ImageView
+                android:id="@+id/iv_threads_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/social_media_threads_icon" />
+
+            <TextView
+                android:id="@+id/tv_threads"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:text="@string/social_media_threads"
+                android:textColor="@color/black"
+                android:textSize="21sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

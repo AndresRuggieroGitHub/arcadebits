@@ -1,0 +1,346 @@
+<resources>
+    <string name="app_name">ArcaDeBits</string>
+
+    <!-- WelcomeActivity -->
+    <!-- ...............................WelcomeActivity......................................... -->
+    <string name="welcome_title">Bienvenido\na la aplicación</string>
+    <string name="welcome_login_btn">Iniciar sesión</string>
+    <string name="welcome_singup_btn">Registrarse</string>
+    <!-- ...............................WelcomeActivity......................................... -->
+
+
+
+
+
+
+    <!-- SING UP -->
+    <!-- ......................................SING UP.......................................... -->
+    <!-- hints -->
+    <string name="signup_title">Registrarse</string>
+    <string name="signup_name_hint">Nombre</string>
+    <string name="signup_surname_hint">Apellido</string>
+    <string name="signup_email_hint">Correo electrónico</string>
+    <string name="signup_password_hint">Contraseña</string>
+    <string name="signup_confirm_password_hint">Confirma la contraseña</string>
+
+    <!-- btn -->
+    <string name="signup_btn">Registrarse</string>
+
+    <!-- texts -->
+    <string name="signup_text_already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="signup_text_log_in">Inicia sesión</string>
+
+    <!-- errors -->
+    <string name="signup_name_required">Nombre obligatorio</string>
+    <string name="signup_surname_required">Apellido obligatorio</string>
+    <string name="signup_email_required">Email obligatorio</string>
+    <string name="signup_password_required">Contraseña obligatoria</string>
+    <string name="signup_confirm_password_required">Confirma tu contraseña</string>
+    <string name="signup_name_error">Formato de nombre inválido</string>
+    <string name="signup_surname_error">Formato de apellido inválido</string>
+    <string name="signup_email_error">Email no válido</string>
+    <string name="signup_password_complex_error">La contraseña debe tener ≥6 caracteres, letras y dígitos</string>
+    <string name="signup_confirm_password_error">Las contraseñas no coinciden</string>
+    <string name="signup_success">¡Registro correcto!</string>
+    <string name="signup_error_generic">Error al crear la cuenta</string>
+    <string name="signup_error_title">Error</string>
+
+    <string name="login_email_required">Email obligatorio</string>
+    <string name="login_email_error">Email no válido</string>
+    <string name="login_password_required">Contraseña obligatoria</string>
+    <string name="login_password_complex_error">La contraseña debe tener ≥6 caracteres, letras y dígitos</string>
+    <string name="login_error_title">Error</string>
+    <string name="login_error_credentials">Correo o contraseña incorrectos</string>
+    <!-- ......................................SING UP.......................................... -->
+
+
+
+
+
+
+    <!-- LOG IN -->
+    <!-- .....................................LOG IN............................................ -->
+    <string name="login_title">Iniciar Sesión</string>
+
+    <!-- hints -->
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+
+    <!-- btns -->
+    <string name="login_btn">Iniciar sesión</string>
+    <string name="login_text_google_btn">Google</string>
+    <string name="login_text_facebook_btn">Facebook</string>
+
+    <!-- texts -->
+    <string name="login_text_password_forgot">¿Olvidaste tu contraseña? Recupérala</string>
+    <string name="login_or_text">O inicia sesión con</string>
+
+    <string name="login_text_dont_have_account">¿No tiene una cuenta?</string>
+    <string name="login_text_sign_up">Registrate ahora</string>
+    <!-- .....................................LOG IN............................................ -->
+
+
+
+
+    <!-- log in mas como tegnologia en general, sign in mas comun en microsoft y google -->
+    <string name="log_in">Iniciar sesión</string>
+    <string name="sign_in">Iniciar sesión</string>
+    <!-- aqui lo mismo -->
+    <string name="log_out">Cerrar sesión</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="sign_up">Registrarse</string>
+    <string name="google">Google</string>
+
+
+
+    <!-- Recover Account -->
+    <!-- ...................................Recover Account..................................... -->
+    <string name="recover_account_title">Restablecer contraseña</string>
+
+    <!-- texts -->
+    <string name="recover_account_explanation">Indique su correo electronico y le enviaremos instrucciones para restablecer su contraseña.</string>
+
+    <!-- hints -->
+    <string name="recover_account_email_hint">Correo electrónico</string>
+
+    <!-- btns -->
+    <string name="recover_account_send_btn">Enviar</string>
+    <string name="recover_account_cancel_btn">Cancelar</string>
+
+    <!-- errors -->
+    <string name="recover_account_invalid_email">Ingrese un correo electrónico válido</string>
+    <string name="recover_account_not_registered_email">No tenemos su correo electrónico registrado</string>
+    <string name="recover_account_network_error">Error al conectar con el servidor. Intenta de nuevo</string>
+
+    <!-- confirmation -->
+    <string name="recover_account_confirm_message">Hemos enviado un enlace para restablecer tu contraseña</string>
+    <!-- ...................................Recover Account..................................... -->
+
+
+
+    <!-- MAIN -->
+    <!-- .......................................MAIN............................................ -->
+    <!-- titles of inferior bar -->
+    <string name="fragment_home_title">Inicio</string>
+    <string name="fragment_wishlist_title">Lista de deseos</string>
+    <string name="fragment_cart_title">Carrito</string>
+    <string name="fragment_profile_title">Perfil</string>
+
+    <!-- titles of menu -->
+    <string name="fragment_products_title">Productos</string>
+    <string name="fragment_events_title">Eventos</string>
+    <string name="fragment_birthday_title">Cumpleaños</string>
+
+
+    <!-- exit method texts -->
+    <string name="main_exit_title">¿Qué deseas hacer?</string>
+    <string name="main_exit_message">Elige una opción:</string>
+    <string name="main_exit_close_app_option">Cerrar App</string>
+    <string name="main_exit_log_out_option">Cerrar Sesión</string>
+    <string name="main_exit_cancel_option">Cancelar</string>
+
+
+    <!-- settings -->
+    <string name="main_three_dots_settings_title">Ajustes</string>
+    <string name="main_three_dots_settings_message">\nEsta sección actualmente se encuentra en desarrollo</string>
+    <string name="main_three_dots_settings_positive_button_text">OK</string>
+
+    <!-- help -->
+    <string name="main_three_dots_help_title">Ayuda</string>
+    <string name="main_three_dots_help_message">
+Para poder ayudarte, contactanos a través de:
+
+ arcadebits@gmail.com</string>
+    <string name="main_three_dots_help_positive_button_text">OK</string>
+
+    <!-- about -->
+    <string name="main_three_dots_about_title">Acerca de...</string>
+    <string name="main_three_dots_about_message">
+Versión 1.0
+© 2025 ArcadeBits
+</string>
+    <string name="main_three_dots_about_positive_button_text">OK</string>
+
+
+    <!-- .......................................MAIN............................................ -->
+
+
+    <!-- HOME -->
+    <!-- .......................................HOME............................................ -->
+    <string name="home_title">Inicio</string>
+
+    <!-- titles of home-->
+    <string name="home_categories_title">Categorias</string>
+    <string name="home_recomendations_title">Recomendaciones</string>
+
+    <!-- text-->
+    <string name="home_see_all_text">Ver todo</string>
+    <!-- .......................................HOME............................................ -->
+
+
+
+
+
+
+
+    <string name="nav_events_title">Eventos</string>
+
+
+    <!-- PRODUCT VIEW -->
+    <!-- ....................................................................................... -->
+    <string name="product_view_text_on_sale">En Oferta</string>
+    <!-- .................................PRODUCT VIEW.......................................... -->
+
+
+    <!-- MENU -->
+    <!-- ....................................................................................... -->
+    <string name="menu_home_text">Inicio</string>
+    <string name="menu_my_profile_text">Mi perfil</string>
+    <string name="menu_products_text">Productos</string>
+    <string name="menu_events_text">Eventos</string>
+    <string name="menu_birthday_text">Cumpleaños</string>
+    <string name="menu_social_media_text">Redes sociales</string>
+    <string name="menu_about_us_text">Sobre nosotros</string>
+    <string name="menu_support_text">Soporte</string>
+    <string name="menu_log_out_text">Cerrar sesión</string>
+
+    <!-- .................................MENU.................................................. -->
+
+
+
+
+    <!-- SOCIAL MEDIA -->
+    <!-- ....................................................................................... -->
+    <string name="social_media_title_text">Redes sociales</string>
+
+    <string name="social_media_facebook">Facebook</string>
+    <string name="social_media_facebook_url_link">https://www.facebook.com/arcadebits</string>
+
+    <string name="social_media_x">X</string>
+    <string name="social_media_x_url_link">https://x.com/Arcade_Bits</string>
+
+    <string name="social_media_instagram">Instagram</string>
+    <string name="social_media_instagram_url_link">https://www.instagram.com/arcadebits/</string>
+
+    <string name="social_media_youtube">Youtube</string>
+    <string name="social_media_youtube_url_link">https://www.youtube.com/@arcadebits2679</string>
+
+    <string name="social_media_threads">Threads</string>
+    <string name="social_media_threads_url_link">https://www.threads.com/@arcadebits?hl=es</string>
+    <!-- .....................................SOCIAL MEDIA...................................... -->
+
+
+
+
+    <!-- SUPPORT -->
+    <!-- ..................................SUPPORT.............................................. -->
+    <string name="support_title_text">Soporte</string>
+    <string name="support_text_1">¿Necesitas ayuda? Cuéntanos tu experiencia con la app de arcadebits,
+    sugerencias, dudas o errores que hayas detectado.</string>
+    <string name="support_text_2">¡Estamos aquí para ayudarte!</string>
+
+    <string name="support_button_text">Contacta con nosotros</string>
+    <string name="support_url_link">https://arcadebits.es/pages/contacto</string>
+
+    <string name="support_text">
+    <![CDATA[
+    ¿Necesitas ayuda? Cuéntanos tu experiencia con la app de ArcaDeBits,
+    sugerencias, dudas o errores que hayas detectado.
+    <font color="#000000">¡Estamos aquí para ayudarte!</font>
+    ]]>
+    </string>
+
+    <!-- ..................................SUPPORT.............................................. -->
+
+
+
+    <!-- BIRTHDAY -->
+    <!-- .................................BIRTHDAY.............................................. -->
+    <string name="title_birthday">Celebraciones en arcadebits</string>
+
+    <string name="birthday_title_intro_text">Introducción</string>
+    <string name="birthday_intro_text">Con más de 7 años liderando la organización de eventos gamer en Almería, en Arcade Bits creamos experiencias únicas para los más pequeños. Nuestro equipo de monitores profesionales acompaña y anima cada partida, garantizando diversión y seguridad. Hemos impulsado iniciativas como XpoBit, Hibernum, XpoManga, Ejido Games Xpo y el Circuito Provincial de eSports.
+Además, somos fundadores de EVI (Escuela de Videojuegos Inclusivos) y colaboradores de la Sala Gaming del Materno Infantil en Torrecárdenas, llevando el videojuego a todos los rincones.
+    </string>
+
+    <string name="birthday_title_gaming_room_text">Sala gaming</string>
+    <string name="birthday_gamer_room_text">
+        Nuestra Sala es el epicentro de la diversión para los cumpleañeros más “gamer” de Almería, con 7 años de experiencia ofreciendo partidas inolvidables. Con capacidad para 16 jugadores y monitores expertos siempre disponibles, disfrutará de apoyo y entretenimiento continuo.
+    </string>
+
+    <string name="birthday_title_available_areas_text">Zonas disponibles</string>
+    <string name="birthday_available_areas_text"><![CDATA[
+        • <b>Torneos</b>: 4 stands gaming con Fortnite, Fall Guys, Rocket League, Spiderman, Crash Bandicoot, etc.<br/>
+        • <b>Multijugador</b>: 3 stands gaming para Smash Bros, Mario Kart, Minecraft, Roblox y más.<br/>
+        • <b>Novedades</b>: 2 stands gaming con los último en videojuegos, GamePass, Playstation Plus...<br/>
+        • <b>Clásicos</b>: 3 setups con títulos retro que no envejecen.
+    ]]>
+    </string>
+
+    <string name="birthday_title_schedules_text">Horarios</string>
+    <string name="birthday_schedule_text"><![CDATA[
+        <b>Lunes a Viernes:</b><br/>
+        Primer Turno: 16:30 – 18:30.<br/>
+        Segundo Turno: 18:30 – 20:30.<br/><br/>
+        <b>Sábados, Domingos, Puentes y Festivos:</b><br/>
+        Primer Turno: 12:00 – 14:00.<br/>
+        Segundo Turno: 16:30 – 18:30.<br/>
+        Tercer Turno: 18:30 – 20:30.
+    ]]>
+    </string>
+
+
+
+
+    <string name="birthday_title_reservations_text">Reservas</string>
+
+    <string name="birthday_reservations_text_1">Llámanos al:</string>
+    <string name="birthday_phone_number_text">+34 661 98 73 98</string>
+
+    <string name="birthday_reservations_text_2">O contacta con nosotros a través de nuestras:</string>
+    <string name="birthday_reservations_social_medias">Redes sociales</string>
+    <string name="birthday_btn_text">Reservar ahora</string>
+    <!-- .................................BIRTHDAY.............................................. -->
+
+
+
+    <!-- ORDERS -->
+    <!-- ..................................ORDERS............................................... -->
+    <!-- Para pantalla vacía -->
+    <string name="empty_orders_title">You have no orders yet</string>
+    <string name="empty_orders_subtitle">Browse our catalog and place your first order</string>
+    <string name="empty_orders_image">Empty orders illustration</string>
+
+    <!-- Para cada tarjeta de pedido -->
+    <string name="order_product_image">Order product thumbnail</string>
+    <string name="go_to_order_detail">Go to order detail</string>
+    <!-- ..................................ORDERS............................................... -->
+
+
+
+
+    <!-- WISH-LIST -->
+    <!-- .................................WISH-LIST............................................. -->
+
+    <string name="favorites_title">Mis Favoritos</string>
+    <string name="no_favorites">No hay ningún producto en la lista</string>
+    <!-- .................................WISH-LIST............................................. -->
+
+
+
+
+
+
+    <!-- Descripción de la imagen del producto para accesibilidad -->
+    <string name="product_image">Imagen del producto</string>
+
+
+
+
+
+    <!-- Etiqueta para la cantidad -->
+    <string name="quantity">Cantidad</string>
+    <string name="add_to_cart">Añadir al carrito</string>
+
+
+</resources>

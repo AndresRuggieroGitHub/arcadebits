@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ID de cliente de Google -->
+    <string name="web_client_id" translatable="false" formatted="false">880216492062-hpm7ad9f6969bppesbnldchc63it88vm.apps.googleusercontent.com</string>
+
+
+    <!--  App ID de mi app de Facebook (de Facebook Developers → Configuración básica) -->
+    <string name="facebook_app_id">fb1141084374730130</string>
+
+    <!-- Client Token de Facebook (también en Configuración básica) -->
+    <string name="facebook_client_token">0aa46ecab3d225eb7130134285929be1</string>
+</resources>
