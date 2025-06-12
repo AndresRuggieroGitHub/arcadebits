@@ -43,7 +43,6 @@ class HomeFragment : Fragment() {
 
     private lateinit var productAdapter: ProductAdapter
 
-    // 👇 NUEVO: guardamos el adapter de categorías
     private lateinit var categoryAdapter: CategoryAdapter
 
     private var fullProducts: List<ProductModel> = emptyList()

@@ -146,7 +146,6 @@ class ProductsFragment : Fragment(), Searchable {
     }
 
     private fun applyInitialFilter() {
-        // Ocultamos progress
         binding.pbProducts.visibility = View.GONE
 
         if (initialSearchQuery != null) {

@@ -55,7 +55,7 @@ class LoginActivity : AppCompatActivity() {
                             binding.pbLoading.visibility = View.GONE
 
                             if (!authTask.isSuccessful) {
-                                Toast.makeText(this, "Error autenticando: ${authTask.exception?.message}", Toast.LENGTH_SHORT).show()
+                                Toast.makeText(this, "Error de autentifiación: ${authTask.exception?.message}", Toast.LENGTH_SHORT).show()
                                 return@addOnCompleteListener
                             }
 
